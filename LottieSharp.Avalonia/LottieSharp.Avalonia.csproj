@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="lottie_sharp.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="lottie_sharp.ico" />
+  </ItemGroup>
+
+</Project>
